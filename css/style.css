@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+header{
+    border-bottom: solid 1px;
+    border-bottom-color: #a8a8a8;
+}
+
+#top-header{
+    margin-bottom: 0.5rem !important;
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.main-body-1, .main-body-2, .main-body-3, .main-body-4{
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    border-bottom: solid 2px black;
+}
+.main-body-1 a,.main-body-2 a, .main-body-3 a, .main-body-4 a{
+    text-decoration: none;
+}
+.main-body-1 a:hover, .main-body-2 a:hover, .main-body-3 a:hover, .main-body-4 a:hover{
+    color: #1a6aff!important;
+}
+
+#the-region{
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}
+
+
+h4, h3{
+    padding-bottom: 1.1rem;
+}
+h4 a{
+    text-decoration: none;
+}
+
+h4 a:hover{
+    color: #1a6aff!important;
+}
+
+.author a{
+    text-decoration: none;
+}
+
+.author a:hover{
+    color: #1a6aff!important;
+}
+
+.the-latest{
+    border-top: solid 3px black;
+}
+
+.the-latest h3{
+    padding-top: 1.1rem;
+
+}
+.the-latest a{
+    text-decoration: none;
+}
+.the-latest a:hover{
+    color: #1a6aff!important;
+}
+
+.the-latest p{
+    border-bottom: solid 1px #7e7e7e;
+    padding-bottom: 1.1rem;
+}
+
+.the-latest p span{
+    color: #7e7e7e;
+}
+
+.date{
+    font-size: 0.9rem;
+}
+
+.btn-info{
+    background-color: #277da1 !important;
+    color: white !important;
+}
+
+
+
+.little-articles{
+    padding-bottom: 1.2rem;
+    border-bottom: solid 1px #7e7e7e;
+}
+
+a{
+    color: black !important;
+}
+
+.nav-link{
+    font-size: 0.8rem !important;
+
+}
+.nav-item{
+    padding-bottom: 10px !important;
+    padding-right: 3px !important;
+}
+.navbar-expand-lg{
+    padding: 0 !important;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer h5{
+    border-bottom: solid 1px #a6a6a6;
+}
+
+footer a:hover{
+    color: #1a6aff!important;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.copyright{
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1320px){
+    .date{
+        margin:0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 1270px){
+    #jobs{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1205px){
+    #obituaries{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1085px){
+    #real-estate{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px)  {
+    .btn{
+        display: none !important;
+    }
+    .date{
+        display: none;
+    }
+    header{
+        border-bottom: solid 2px;
+        border-bottom-color: black;
+    }
+    .navbar-toggler{
+        position: fixed;
+        top: 1rem !important;
+        left: 1rem !important;
+        font-size: 0.8rem;
+    }
+
+    .navbar-toggler-icon{
+        font-size: 0.8rem;
+    }
+    #logo-image{
+        width: 50%;
+
+    }
+    #top-header{
+        justify-content: end!important;
+    }
+    #logo-image img{
+        content: url("../img/inquirer-logo-mobile-01.svg");
+    }
+
+    #signin{
+        width: 75%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
